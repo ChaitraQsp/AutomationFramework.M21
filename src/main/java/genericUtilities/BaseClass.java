@@ -63,7 +63,7 @@ public class BaseClass {
 		
 		String URL = pUtil.readDataFromPropertyFile("url");
 		
-		driver = new EdgeDriver();
+		driver = new FirefoxDriver();
 		
 		sUtil.maximizeWindow(driver);
 		sUtil.addImplicitlyWait(driver);
