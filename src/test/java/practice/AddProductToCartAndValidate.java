@@ -51,6 +51,7 @@ public class AddProductToCartAndValidate {
 		driver.findElement(By.linkText("Logout")).click();
 		
 		System.out.println("Logout successful");
+		System.out.println("Logout successful");
 		
 	}
 
