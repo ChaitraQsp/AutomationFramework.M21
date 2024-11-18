@@ -17,7 +17,8 @@ public class AddProductToCartAndValidate {
 		
 		//Step 2: Load the URL
 		driver.get("https://www.saucedemo.com/");;;;;
-		
+		;
+		;
 		
 		//Step 3: Login to Application 
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
